@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <Link to="/users/add">
-                add user
+                add user.
             </Link>
         </>
     );

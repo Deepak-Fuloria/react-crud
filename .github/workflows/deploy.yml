@@ -27,6 +27,8 @@ jobs:
 
       - name: Build React App
         run: npm run build
+        env:
+          VITE_API_BASE_URL: https://node-api.fuloriatech.in
 
       - name: Deploy to VPS
         uses: appleboy/scp-action@v1
